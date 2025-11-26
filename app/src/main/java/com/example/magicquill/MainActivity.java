@@ -7,6 +7,7 @@ import android.view.View;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.appbar.MaterialToolbar;
 
+import androidx.core.content.ContextCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         MaterialToolbar toolbar = findViewById(R.id.topAppBar);
         if (toolbar != null) {
-            toolbar.setBackgroundColor(getResources().getColor(android.R.color.black, getTheme()));
+            toolbar.setBackgroundColor(ContextCompat.getColor(this, android.R.color.black));
             toolbar.setTitle("Magic Quill"); // Set title text (but hidden)
             setSupportActionBar(toolbar);
             if (getSupportActionBar() != null) {
