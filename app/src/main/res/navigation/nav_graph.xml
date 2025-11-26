@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/canvas_fragment">
+
+    <fragment
+        android:id="@+id/canvas_fragment"
+        android:name="com.example.magicquill.ui.CanvasFragment"
+        android:label="Canvas" />
+
+    <fragment
+        android:id="@+id/screen3_fragment"
+        android:name="com.example.magicquill.ui.Screen3Fragment"
+        android:label="Screen3" />
+
+    <fragment
+        android:id="@+id/screen4_fragment"
+        android:name="com.example.magicquill.ui.Screen4Fragment"
+        android:label="Screen4" />
+
+    <fragment
+        android:id="@+id/placeholder_3"
+        android:name="com.example.magicquill.ui.Screen3Fragment"
+        android:label="Placeholder 3" />
+
+</navigation>

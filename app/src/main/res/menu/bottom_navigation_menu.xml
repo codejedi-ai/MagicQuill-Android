@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/canvas_fragment"
+        android:title="Canvas"
+        android:icon="@drawable/ic_canvas" />
+    <item
+        android:id="@+id/placeholder_3"
+        android:title="Placeholder"
+        android:icon="@drawable/ic_placeholder" />
+    <item
+        android:id="@+id/placeholder_1"
+        android:title="Placeholder"
+        android:icon="@drawable/ic_placeholder" />
+    <item
+        android:id="@+id/placeholder_2"
+        android:title="Placeholder"
+        android:icon="@drawable/ic_placeholder" />
+</menu>

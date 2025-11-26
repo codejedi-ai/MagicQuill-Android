@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/canvas_fragment"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Canvas" />
+    <item
+        android:id="@+id/screen3_fragment"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Screen3" />
+    <item
+        android:id="@+id/screen4_fragment"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Screen4" />
+</menu>
